@@ -108,10 +108,10 @@ with open('D:\school\ELG5255\project\code\data.csv') as File:
     
     plt.scatter(f, a) 
     plt.plot(g, b, c='red')
-    plt.legend(['a(f)', 'b(g) - log base c of b(g)'])
+    plt.legend(['a(f)', 'Log base c of b(g)'])
     plt.xlabel('Frequency (MHz)') 
     plt.ylabel('Cable Loss (dB/100m)') 
-    plt.title('Log base c of Linear Regression on c^(b(g)) using the Optimal c Value') 
+    plt.title('Log base c of Linear Regression on c^(a(f)) using the Optimal c Value') 
     plt.show() 
     
     
